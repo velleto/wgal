@@ -25,12 +25,10 @@ class WebGallery(object):
 
         parser.add_argument('source',
                             metavar='SOURCE',
-                            nargs=1,
                             help="Specify source directory of images.")
 
         parser.add_argument('web',
                             metavar='WEB',
-                            nargs=1,
                             help="Specify destination directory for the website.")
 
         args = parser.parse_args()
