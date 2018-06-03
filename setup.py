@@ -20,4 +20,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     scripts=["bin/wgal"],
+    include_package_data=True,
 )
