@@ -1,1 +1,1 @@
-recursive-include website/*
+recursive-include wgal/website *
