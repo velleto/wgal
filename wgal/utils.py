@@ -5,8 +5,7 @@ import os
 
 
 def find(path):
-    """Check whether directory exists, and recursively list files it contains."""
-
+    """Check whether directory exists, recursively list files it contains."""
     try:
         if not os.path.isdir(path):
             raise Exception("No such directory: {}".format(path))
