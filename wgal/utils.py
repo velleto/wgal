@@ -23,4 +23,4 @@ def find(path):
 
 def up(path):
     """Return parent directory of path."""
-    return os.path.abspath(os.path.join(os.path.dirname(path), '..'))
+    return os.path.abspath(os.path.join(os.path.dirname(path), os.pardir))
