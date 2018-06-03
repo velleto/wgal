@@ -13,7 +13,7 @@ class WebGallery(object):
 
     To run wgal, call:
 
-    >>> inmport wgal
+    >>> import wgal
 
     >>> wg = WebGallery()
     >>> wg.run()
