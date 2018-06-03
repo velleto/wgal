@@ -1,0 +1,7 @@
+build/
+dist/
+wgal.egg-info/
+Makefile
+
+# wgal
+wgal/__pycache__/
