@@ -19,3 +19,8 @@ def find(path):
             all_files.append(os.path.join(parent, file))
 
     return all_files
+
+
+def up(path):
+    """Return parent directory of path."""
+    return os.path.abspath(os.path.join(os.path.dirname(path), '..'))
