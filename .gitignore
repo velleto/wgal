@@ -4,7 +4,6 @@ wgal.egg-info/
 testing/
 
 Makefile
-TODO.txt
 
 # wgal
 wgal/__pycache__/
