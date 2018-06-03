@@ -1,6 +1,8 @@
 build/
 dist/
 wgal.egg-info/
+testing/
+
 Makefile
 
 # wgal
