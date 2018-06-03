@@ -4,6 +4,7 @@ wgal.egg-info/
 testing/
 
 Makefile
+testing/
 
 # wgal
 wgal/__pycache__/
